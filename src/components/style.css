@@ -1,0 +1,113 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: black;
+}
+
+/*.container {
+    display:flex;
+    flex-direction: column;
+}*/
+
+.icon {
+    width: 20px;
+}
+
+.me-2{
+    border:solid 1px;
+    border-color: #D3D3D3;
+    margin-bottom: 20px;
+}
+
+.d-inline-block {
+    margin-bottom: 10px;
+}
+
+.container1{
+    margin: 9px;
+    height: 290px;
+}
+
+.card{
+    width:180px;
+    border-color: #D3D3D3;
+    background-color: #f2f2f2;
+}
+
+.content{
+    display:grid;
+    grid-template-columns:repeat(3, auto);
+    grid-template-rows:100px 140px;
+    justify-content: center;
+    
+}
+
+.titleCard{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.imgPoke{
+    cursor: pointer;
+}
+
+.imgModal{
+    height: 150px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin: 5px;
+   
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    
+}
+  
+.container-2{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.buttonFav{
+    background-color: #f2f2f2;
+    border-color: #D3D3D3;
+    color:#808080;
+}
+
+.favCard{
+    background-color: #f2f2f2;
+    width: 135px;
+}
+
+
+.card2{
+    background-color: #f2f2f2;
+    display:flex;
+    justify-content: space-between;
+    margin: 4px;
+    border-radius: 5px;
+}
+
+h2{
+    margin: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px
+}
+
