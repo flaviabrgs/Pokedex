@@ -12,7 +12,13 @@
 </p>
 
 
-
+<h2>💻 Tecnologias utilizadas</h2>
+<ul>
+<li>BOOTSTRAP</li>
+<li>REACT JS</li>
+<li>AXIOS</li>
+<li>POKE API</li>
+</ul>
 
 
 
