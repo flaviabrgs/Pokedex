@@ -1,5 +1,5 @@
 
-                                                    Pokedex com sistema de favoritos
+                                           <p align="center"><h1> Pokedex com ReactJS e sistema de favoritos </h1>
 
 
 
@@ -9,7 +9,7 @@
 
 <img src="https://i.ibb.co/sPWRshy/3.png" alt="3" border="0">
 
-
+</p>
 
 
 
