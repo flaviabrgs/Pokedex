@@ -1,8 +1,9 @@
 
                                         
 
-<p align="center"><h1> Pokedex com ReactJS e sistema de favoritos </h1>
+<p align="center"><h1> Pokedex com ReactJS e sistema de favoritos </h1></p>
 
+<p align="center">
 <img src="https://i.ibb.co/88XbZg2/1.png" alt="1" border="0">
 
 <img src="https://i.ibb.co/P5HqQJT/2.png" alt="2" border="0">
