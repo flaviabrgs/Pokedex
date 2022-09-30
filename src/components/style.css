@@ -3,12 +3,13 @@
     justify-content: center;
     height: 150px;
     background-color: black;
+    border: solid;
 }
 
-/*.container {
+.container {
     display:flex;
     flex-direction: column;
-}*/
+}
 
 .icon {
     width: 20px;
@@ -37,10 +38,8 @@
 
 .content{
     display:grid;
-    grid-template-columns:repeat(3, auto);
-    grid-template-rows:100px 140px;
+    grid-template-columns:repeat(6, auto);
     justify-content: center;
-    
 }
 
 .titleCard{
@@ -111,3 +110,10 @@ h3 {
     margin: 10px
 }
 
+.card1 {
+    margin: 10px;
+}
+
+.favorites {
+    margin: 100px;
+}
