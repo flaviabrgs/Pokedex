@@ -1,5 +1,6 @@
 export interface PokeDetails {
     name: any;
+    url: string;
     id: number;
     sprites: Sprites;
     weight: number;
@@ -7,17 +8,17 @@ export interface PokeDetails {
     types: Type[];
 }
 
-export interface Type {
+interface Type {
     slot: number;
     type: Type2;
 }
 
-export interface Type2 {
+interface Type2 {
     name: string;
     url: string;
 }
 
-export interface Sprites {
+interface Sprites {
     back_default: string;
     back_female?: any;
     back_shiny: string;

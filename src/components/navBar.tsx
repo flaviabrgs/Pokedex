@@ -1,10 +1,10 @@
-/*import * as React from 'react';
+import * as React from 'react';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import './style.css';
-//import Title from "../assets/title.png";
+import Title from "../assets/title.png";
 
-export default function NavBar() {
+export default function Bar() {
  return (
         <div>
      <div className='flex-container'>
@@ -24,7 +24,7 @@ export default function NavBar() {
         </div>
     );
  
-}*/
+}
     
 
 

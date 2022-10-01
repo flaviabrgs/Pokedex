@@ -5,11 +5,11 @@ import Home from "./pages/Home";
 
 const App: React.FC = () => {
   return (
-    <React.StrictMode>
+   
     <div className="App">
      <Home/>
     </div>
-    </React.StrictMode>
+    
   );
 }
 

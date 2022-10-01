@@ -33,7 +33,6 @@ const PokeCard: React.FC<Props> = (props) => {
 
   let findfavorite = pokemons.filter(pokemon => favorite.includes(pokemon.name));
 
-  // TODO: Instalar prettier! ou tslint.
   return (
     <>
       <Container className='content'>
@@ -43,20 +42,20 @@ const PokeCard: React.FC<Props> = (props) => {
               <Col xs={1} md={4} className="g-4" >
                 <Card className='card1'>
                   <CardGroup>
-                    <Card.Img className='imgPoke' variant="top" src={pokemon.sprites.front_default} onClick={toggle} />
+                    <Card.Img className='imgPoke' variant="top" src={pokemon.sprites.front_default} onClick={toggle} alt = "pokemon-sprite"/>
                     <Card.Body>
                       <Card.Title className="titleCard" >{pokemon.id}</Card.Title>
                       <Card.Text>
-                        <Button variant='danger' className="buttonFav" onClick={() => addToFavorite(pokemon.name)}>
+                        <Button color="danger" className="buttonFav" onClick={() => addToFavorite(pokemon.name)}>
                           Add to favorite <BsHeartFill />
                         </Button>
 
                         <Modal isOpen={modal} toggle={toggle}>
                           <ModalBody>
-                            {/* TODO: adicionar alt prop */}
-                            <img src={pokemon.sprites.front_default} className="imgModal" />
-                            <img src={pokemon.sprites.back_default} className="imgModal" />
-                            <img src={pokemon.sprites.front_shiny} className="imgModal" />
+                          
+                            <img src={pokemon.sprites.front_default} className="imgModal" alt = "pokemon-front"/>
+                            <img src={pokemon.sprites.back_default} className="imgModal" alt = "pokemon-back"/>
+                            <img src={pokemon.sprites.front_shiny} className="imgModal" alt = "pokemon-shiny"/>
                             <h1>{pokemon.name}</h1>
                             <p>Tipo: {pokemon.types[0].type.name}</p>
                             <p>Id: {pokemon.id}</p>
@@ -84,9 +83,9 @@ const PokeCard: React.FC<Props> = (props) => {
               <div className="card2" key={pokemon.id}>
                 <h3>Favoritado</h3>
                 <h2>{pokemon.name}</h2>
-                {/* TODO: adicionar alt prop */}
-                <img className="favCard" src={pokemon.sprites.front_default} />
-                <Button variant='danger' className="buttonFav" onClick={() => removeFavorite(pokemon.name)}>
+                
+                <img className="favCard" src={pokemon.sprites.front_default}  alt = "pokemon-favCard"/>
+                <Button color="danger" className="buttonFav" onClick={() => removeFavorite(pokemon.name)}>
                   Remove favorite <BsHeart />
                 </Button>
               </div>
