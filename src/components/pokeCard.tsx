@@ -44,7 +44,7 @@ const PokeCard: React.FC<Props> = (props) => {
                   <CardGroup>
                     <Card.Img className='imgPoke' variant="top" src={pokemon.sprites.front_default} onClick={toggle} alt = "pokemon-sprite"/>
                     <Card.Body>
-                      <Card.Title className="titleCard" >{pokemon.id}</Card.Title>
+                      <Card.Title className="titleCard" >{pokemon.name}</Card.Title>
                       <Card.Text>
                         <Button color="danger" className="buttonFav" onClick={() => addToFavorite(pokemon.name)}>
                           Add to favorite <BsHeartFill />
